@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="icon" type="image/png" href="company-logo.png">
+  <title>Products | Auxilium & Synapse</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #020617;
+      color: #f1f5f9;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 4rem 1.5rem;
+    }
+
+    h1 {
+      font-size: 3rem;
+      font-weight: 800;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    .subtitle {
+      text-align: center;
+      color: #94a3b8;
+      font-size: 1.2rem;
+      max-width: 800px;
+      margin: 0 auto 4rem;
+      line-height: 1.6;
+    }
+
+    .grid {
+      display: grid;
+      gap: 2rem;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+    .card {
+      background: rgba(15, 23, 42, 0.8);
+      border: 1px solid rgba(51, 65, 85, 0.5);
+      border-radius: 1rem;
+      padding: 2rem;
+      backdrop-filter: blur(10px);
+      transition: transform 0.3s ease, border-color 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      border-color: rgba(59, 130, 246, 0.4);
+    }
+
+    .card h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #60a5fa;
+    }
+
+    .card p {
+      color: #cbd5e1;
+      line-height: 1.6;
+      margin-bottom: 1.5rem;
+    }
+
+    .section-title {
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin-top: 1rem;
+      margin-bottom: 0.5rem;
+      color: #93c5fd;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 1.2rem;
+      color: #cbd5e1;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+
+    .highlight {
+      color: #22d3ee;
+      font-weight: 600;
+    }
+
+    .cta {
+      text-align: center;
+      margin-top: 4rem;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 0.9rem 1.5rem;
+      background: linear-gradient(to right, #2563eb, #3b82f6);
+      color: white;
+      border-radius: 0.75rem;
+      text-decoration: none;
+      font-weight: 600;
+      transition: transform 0.2s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+    }
+
+    .back {
+      display: block;
+      text-align: center;
+      margin-top: 2rem;
+      color: #64748b;
+      text-decoration: none;
+    }
+
+    .back:hover {
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>Auxilium & Synapse</h1>
+
+    <p class="subtitle">
+      Two intelligent systems designed to transform how businesses manage data, operations, and automation.
+      Built for speed, safety, and scalability.
+    </p>
+
+    <div class="grid">
+
+      <!-- AUXILIUM -->
+      <div class="card">
+        <h2>Auxilium</h2>
+
+        <p>
+          A powerful file intelligence system that allows users to search, analyse, and safely modify file systems using AI-driven logic.
+          It is designed for organisations that rely heavily on documents, knowledge bases, and structured data.
+        </p>
+
+        <div class="section-title">Core Capabilities</div>
+        <ul>
+          <li>Search entire file systems instantly using semantic understanding</li>
+          <li>Answer questions directly from internal documents</li>
+          <li>Rewrite or update files safely without risk of data loss</li>
+          <li>Creates automatic compressed backups of original files</li>
+        </ul>
+
+        <div class="section-title">Safety System</div>
+        <p>
+          Every modification is first written to a secure duplicate file.
+          Only after user approval is the original file updated, ensuring full control and rollback protection.
+        </p>
+
+        <p class="highlight">
+          Ideal for legal teams, knowledge bases, engineering documentation, and enterprise archives.
+        </p>
+      </div>
+
+      <!-- SYNAPSE -->
+      <div class="card">
+        <h2>Synapse</h2>
+
+        <p>
+          A business operations automation platform designed to simplify booking systems, invoicing,
+          documentation, and administrative workflows into one unified system.
+        </p>
+
+        <div class="section-title">Core Capabilities</div>
+        <ul>
+          <li>Booking in/out management system</li>
+          <li>Automated invoice and quotation generation</li>
+          <li>Custom letter and document templates</li>
+          <li>Built-in PDF editor and data extraction tools</li>
+        </ul>
+
+        <div class="section-title">Business Impact</div>
+        <p>
+          Synapse removes repetitive admin tasks and centralises operations,
+          reducing workload and increasing business efficiency.
+        </p>
+
+        <p class="highlight">
+          Ideal for SMEs, service companies, and organisations handling high administrative volume.
+        </p>
+      </div>
+
+    </div>
+
+    <div class="cta">
+
+      <a href="index.html" class="back">← Back to Home</a>
+    </div>
+
+  </div>
+
+</body>
+</html>
